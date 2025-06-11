@@ -14,16 +14,13 @@
 </template>
 
 <script setup>
-import Layout from "../Shared/Layout.vue";
 import { Link } from '@inertiajs/vue3'
 
 defineProps({
     time: String
 });
 
-defineOptions({
-  layout: Layout
-})
+
 </script>
 
 <style scoped>
