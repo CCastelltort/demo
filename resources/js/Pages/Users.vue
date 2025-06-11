@@ -1,5 +1,4 @@
 <template>
-    <Layout>
         <h1 class="text-3xl">Users</h1>
 
         <div style="margin-top: 800px;">
@@ -10,9 +9,7 @@
     <Link href="/users" class="text-blue-500" preserve-scroll>
         Refresh
     </Link>
-    </Layout>
-
-    
+  
 
 </template>
 
@@ -24,6 +21,9 @@ defineProps({
     time: String
 });
 
+defineOptions({
+  layout: Layout
+})
 </script>
 
 <style scoped>
