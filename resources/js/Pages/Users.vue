@@ -1,13 +1,9 @@
 <template>
-    <h1>Home</h1>
-
-    <Nav></Nav>
-
+    <h1>Users</h1>
 
 </template>
 
 <script setup>
-import Nav from "../Shared/Nav.vue";
 
 </script>
 
